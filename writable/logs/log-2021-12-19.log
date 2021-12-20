@@ -1,0 +1,76 @@
+CRITICAL - 2021-12-19 17:35:34 --> There is no data to update.
+#0 D:\xampp\htdocs\NPOS\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\NPOS\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\NPOS\app\Controllers\Users.php(111): CodeIgniter\Model->update('1', Array)
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Users->Restore('1')
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NPOS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-19 17:36:15 --> There is no data to update.
+#0 D:\xampp\htdocs\NPOS\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\NPOS\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\NPOS\app\Controllers\Users.php(111): CodeIgniter\Model->update('1', Array)
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Users->Restore('1')
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NPOS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-19 17:36:17 --> There is no data to update.
+#0 D:\xampp\htdocs\NPOS\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\NPOS\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\NPOS\app\Controllers\Users.php(111): CodeIgniter\Model->update('1', Array)
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Users->Restore('1')
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NPOS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-19 17:36:36 --> There is no data to update.
+#0 D:\xampp\htdocs\NPOS\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\NPOS\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\NPOS\app\Controllers\Users.php(111): CodeIgniter\Model->update('1', Array)
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Users->Restore('1')
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NPOS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-19 17:43:18 --> Key may not be empty
+#0 D:\xampp\htdocs\NPOS\app\Helpers\JWT_helper.php(25): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', false, Array)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Users.php(70): JWT_decode('eyJ0eXAiOiJKV1Q...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Users->me()
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-19 17:44:04 --> Key may not be empty
+#0 D:\xampp\htdocs\NPOS\app\Helpers\JWT_helper.php(25): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', false, Array)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Users.php(70): JWT_decode('eyJ0eXAiOiJKV1Q...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Users->me()
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-19 17:44:06 --> Key may not be empty
+#0 D:\xampp\htdocs\NPOS\app\Helpers\JWT_helper.php(25): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', false, Array)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Users.php(70): JWT_decode('eyJ0eXAiOiJKV1Q...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Users->me()
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-19 17:44:47 --> Key may not be empty
+#0 D:\xampp\htdocs\NPOS\app\Helpers\JWT_helper.php(25): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', false, Array)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Users.php(70): JWT_decode('eyJ0eXAiOiJKV1Q...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Users->me()
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-19 17:44:49 --> Key may not be empty
+#0 D:\xampp\htdocs\NPOS\app\Helpers\JWT_helper.php(25): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', false, Array)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Users.php(70): JWT_decode('eyJ0eXAiOiJKV1Q...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Users->me()
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
