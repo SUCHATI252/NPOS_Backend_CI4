@@ -18,6 +18,7 @@ class UsersSeeder extends Seeder
             'password' => Hash_password($pass, $salt),
             'salt'     => $salt,
             'phone'    => '0987654321',
+            'activate' => '1',
         ];
         $model->insert($data);
     }

@@ -1,0 +1,141 @@
+CRITICAL - 2021-12-28 18:23:12 --> file_get_contents(D:\xampp\htdocs\NPOS\writable\uploads/products/1640689488_f4313a2ebbfee2b736a4.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\xampp\\htdocs...', 153)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(153): file_get_contents('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Image('1640689488_f431...')
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:28:12 --> file_get_contents(D:\xampp\htdocs\NPOS\writable\uploads/products/1640689488_f4313a2ebbfee2b736a4.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\xampp\\htdocs...', 153)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(153): file_get_contents('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Image('1640689488_f431...')
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:33:45 --> unlink(D:\xampp\htdocs\NPOS\writable\uploads/products/1640689488_f4313a2ebbfee2b736a4.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\xampp...', 'D:\\xampp\\htdocs...', 101)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(101): unlink('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->delete('1', '2222222222222')
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:33:54 --> file_get_contents(D:\xampp\htdocs\NPOS\writable\uploads/products/1640689488_f4313a2ebbfee2b736a4.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\xampp\\htdocs...', 153)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(153): file_get_contents('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Image('1640689488_f431...')
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:41:12 --> file_get_contents(D:\xampp\htdocs\NPOS\writable\uploads/products/1640689488_f4313a2ebbfee2b736a4.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\xampp\\htdocs...', 153)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(153): file_get_contents('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Image('1640689488_f431...')
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 18:49:37 --> file_get_contents(D:\xampp\htdocs\NPOS\writable\uploads/products/1640689488_f4313a2ebbfee2b736a4.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\xampp\\htdocs...', 153)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(153): file_get_contents('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Image('1640689488_f431...')
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 19:02:52 --> file_get_contents(D:\xampp\htdocs\NPOS\writable\uploads/products/1640689488_f4313a2ebbfee2b736a4.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\xampp\\htdocs...', 153)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(153): file_get_contents('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Image('1640689488_f431...')
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 19:04:28 --> file_get_contents(D:\xampp\htdocs\NPOS\writable\uploads/products/1640689488_f4313a2ebbfee2b736a4.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\xampp\\htdocs...', 153)
+#1 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(153): file_get_contents('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Image('1640689488_f431...')
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-28 19:28:08 --> There is no data to update.
+#0 D:\xampp\htdocs\NPOS\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\NPOS\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(218): CodeIgniter\Model->update('2', Array)
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Restore('2')
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 19:29:17 --> There is no data to update.
+#0 D:\xampp\htdocs\NPOS\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\NPOS\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(218): CodeIgniter\Model->update('2', Array)
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Restore('2')
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 19:29:48 --> There is no data to update.
+#0 D:\xampp\htdocs\NPOS\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\NPOS\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(218): CodeIgniter\Model->update('2', Array)
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Restore('2')
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 19:33:39 --> There is no data to update.
+#0 D:\xampp\htdocs\NPOS\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\NPOS\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(218): CodeIgniter\Model->update('2', Array)
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Restore('2')
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 19:33:43 --> There is no data to update.
+#0 D:\xampp\htdocs\NPOS\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\NPOS\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(218): CodeIgniter\Model->update('2', Array)
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Restore('2')
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 19:37:07 --> Undefined variable $id
+#0 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 217)
+#1 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Restore('2')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 19:37:12 --> Undefined variable $id
+#0 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 217)
+#1 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Restore('2')
+#2 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 19:37:39 --> There is no data to update.
+#0 D:\xampp\htdocs\NPOS\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\NPOS\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(219): CodeIgniter\Model->update('2', Array)
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Restore('2')
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 19:37:41 --> There is no data to update.
+#0 D:\xampp\htdocs\NPOS\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\NPOS\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\NPOS\app\Controllers\Products.php(219): CodeIgniter\Model->update('2', Array)
+#3 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Products->Restore('2')
+#4 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}

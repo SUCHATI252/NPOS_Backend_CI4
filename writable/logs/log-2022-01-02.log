@@ -1,0 +1,14 @@
+ERROR - 2022-01-02 09:30:52 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-01-02 09:30:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\xampp\htdocs\NPOS\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\NPOS\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `sales`....', Array, false)
+#2 D:\xampp\htdocs\NPOS\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\NPOS\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\xampp\htdocs\NPOS\app\Models\SaleModel.php(43): CodeIgniter\BaseModel->findAll()
+#5 D:\xampp\htdocs\NPOS\app\Controllers\Sales.php(29): App\Models\SaleModel->listsales()
+#6 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(824): App\Controllers\Sales->listsales()
+#7 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#8 D:\xampp\htdocs\NPOS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\NPOS\public\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}

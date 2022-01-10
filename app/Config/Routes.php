@@ -32,6 +32,55 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('{locale}/', 'Home::index');
+
+$routes->get('/login', 'Login::index');
+$routes->get('{locale}/login', 'Login::index');
+
+$routes->get('/forgotpassword', 'Forgotpassword::index');
+$routes->get('{locale}/forgotpassword', 'Forgotpassword::index');
+
+$routes->get('/resetpassword', 'Resetpassword::index');
+$routes->get('{locale}/resetpassword', 'Resetpassword::index');
+
+$routes->get('/sales', 'Sales::index');
+$routes->get('{locale}/sales', 'Sales::index');
+
+
+$routes->group('dashboards', function ($routes) {
+    $routes->get('/', 'Dashboard::index');
+    $routes->get('dashboard', 'Dashboard::index');
+    $routes->get('users', 'Dashboard::users');
+    $routes->get('users/profile', 'Dashboard::usersprofile');
+    $routes->get('stores', 'Dashboard::stores');
+    $routes->get('customers', 'Dashboard::customers');
+    $routes->get('listsales', 'Dashboard::listsales');
+    $routes->get('report', 'Dashboard::report');
+    $routes->get('stores/recyclebin', 'Dashboard::storesrecyclebin');
+});
+
+$routes->group('{locale}/dashboards', function ($routes) {
+    $routes->get('/', 'Dashboard::index');
+    $routes->get('dashboard', 'Dashboard::index');
+    $routes->get('users', 'Dashboard::users');
+    $routes->get('users/profile', 'Dashboard::usersprofile');
+    $routes->get('stores', 'Dashboard::stores');
+    $routes->get('customers', 'Dashboard::customers');
+    $routes->get('listsales', 'Dashboard::listsales');
+    $routes->get('report', 'Dashboard::report');
+    $routes->get('stores/recyclebin', 'Dashboard::storesrecyclebin');
+});
+
+// $routes->get('{locale}/dashboards/', 'Dashboard::index');
+// $routes->get('{locale}/dashboards/users', 'Dashboard::users');
+// $routes->get('{locale}/dashboards/users/profile', 'Dashboard::usersprofile');
+// $routes->get('{locale}/dashboards/stores', 'Dashboard::stores');
+// $routes->get('{locale}/dashboards/customers', 'Dashboard::customers');
+// $routes->get('{locale}/dashboards/listsales', 'Dashboard::listsales');
+// $routes->get('{locale}/dashboards/report', 'Dashboard::report');
+// $routes->get('{locale}/dashboards/stores/recyclebin', 'Dashboard::storesrecyclebin');
+
+
 
 /*
  * --------------------------------------------------------------------

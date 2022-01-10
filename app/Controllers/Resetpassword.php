@@ -16,7 +16,7 @@ class Resetpassword extends BaseController
     //--------------------------------------------------------
     public function index()
     {
-        return 'resetpassword/index';
+        return view('resetpassword/index');
     }
     //--------------------------------------------------------
 

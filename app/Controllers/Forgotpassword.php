@@ -14,7 +14,7 @@ class Forgotpassword extends BaseController
     
     public function index()
     {
-        return 'forgotpassword';
+        return view('forgotpassword/index');
     }
     
     public function sendcode()

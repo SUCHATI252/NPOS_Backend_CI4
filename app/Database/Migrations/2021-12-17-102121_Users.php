@@ -36,7 +36,7 @@ class Users extends Migration
             ],
             'activate'      => [
                 'type'       => 'ENUM',
-                'constraint' => ['0', '1'],
+                'constraint' => ['0', '1', '2'],
                 'default'    => '0'
             ],
             'activate_hash' => [
